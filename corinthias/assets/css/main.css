@@ -32,7 +32,7 @@ a.focus, a:focus, a:hover {text-decoration: none; color: #000;}
 .rwd-break { display: none;}
 .branco {color: #fff;}
 .vermelho {color: #D0021B;}
-.panel-body {font-size: 16px; font-weight: 400; line-height: 26px;}
+.panel-body {font-size: 16px; font-weight: 400; line-height: 26px; padding: 15px 25px;}
 
 .btn-vermelho {background-color: #D0021B; color: #fff; font-size: 30px; font-weight: 700; border-radius: 10px;}
 .btn-vermelho {padding: 15px 50px; margin-bottom: 20px;}
