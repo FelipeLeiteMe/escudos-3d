@@ -3,25 +3,36 @@
 body {font-family: 'Source Sans Pro', sans-serif; font-weight: 300;}
 p {font-size: 18px;}
 h1 {font-size: 32px; margin-bottom: 5px; margin-top: 0px;}
-h2 {font-size: 64px; font-weight: 700;}
+h2 {font-size: 64px; font-weight: 700; margin-top: -5px; margin-bottom: 0px;}
+h3 {font-size: 20px;}
+h4 {font-size: 30px;}
 small {font-size: 16px;}
 span {font-weight: 700;}
+a {color: #000;}
+a.focus, a:focus, a:hover {text-decoration: none; color: #000;}
 
+.margin0 {margin: 0 0 0 0;}
+.margin-top10 {margin-top: 10px;}
 .margin-top20 {margin-top: 20px;}
 .margin-top30 {margin-top: 30px;}
 .margin-top40 {margin-top: 40px;}
 .margin-top50 {margin-top: 50px;}
 .margin-top60 {margin-top: 60px;}
+.margin-top80 {margin-top: 80px;}
 
+.margin-bottom10 {margin-bottom: 10px;}
 .margin-bottom20 {margin-bottom: 20px;}
 .margin-bottom25 {margin-bottom: 25px;}
 .margin-bottom40 {margin-bottom: 40px;}
 .margin-bottom60 {margin-bottom: 60px;}
+.margin-bottom80 {margin-bottom: 80px;}
 
 .padding20 {padding: 20px 0;}
-
 .font-size24 {font-size: 24px;}
 .rwd-break { display: none;}
+.branco {color: #fff;}
+.vermelho {color: #D0021B;}
+.panel-body {font-size: 16px; font-weight: 400; line-height: 26px;}
 
 .btn-vermelho {background-color: #D0021B; color: #fff; font-size: 30px; font-weight: 700; border-radius: 10px;}
 .btn-vermelho {padding: 15px 50px; margin-bottom: 20px;}
@@ -29,7 +40,12 @@ span {font-weight: 700;}
 
 .btn-preto {background-color: #fff; color: #000; font-size: 30px; font-weight: 700; border-radius: 10px; border-style: solid; border-width: 1px; border-color: #000;}
 .btn-preto {padding: 15px 60px; margin-bottom: 20px;}
-.btn-preto.focus, .btn-preto:focus, .btn-preto:hover {background-color: #000; color: #fff;}
+.btn-preto.focus, .btn-preto:focus, .btn-preto:hover {background-color: #343434; color: #fff;}
+
+
+.panel-default>.panel-heading { border-left: 10px solid #000; background-color: #fff; border-top-left-radius: 0px; border-top-right-radius: 0px;}
+.panel-group .panel {border-radius: 0px; border: 0px solid transparent;}
+.panel-default {background-color: #fff;}
 
 /*==========  Site  ==========*/
 
@@ -45,36 +61,35 @@ span {font-weight: 700;}
 .brasao {margin-top: 30px; margin-bottom: 10px;}
 
 /*banner*/
-.banner {background-image: url(../img/img-bg.png); background-color: #000; background-position: center top; background-size: cover;}
-.banner {height: auto;}
-.banner p {color: #fff;}
-.banner h1 {color: #fff;}
-.banner h2 {color: #fff; margin-top: -5px; margin-bottom: 0px;}
-.banner small {color: #fff;}
+.banner {background-image: url(../img/img-bg.png); background-color: #000; background-position: center top; background-size: cover; height: auto;}
 
 /*Qualidade*/
 .qualidade {height: auto;}
 
 /*Superfície*/
-.superficie {background-color: #000; height: 500px;}
+.superficie {background-color: #000; height: auto;}
+.superficie-img {padding-top: 30px;}
 
 /*Segurança*/
-.seguranca {height: 650px;}
+.seguranca {height: auto;}
 
 /*Dúvidas*/
-.duvidas {background-color: #D0021B; height: 600px;}
+.duvidas {background-color: #D0021B; height: auto;}
 
 /*Instagram*/
-.instagram {background-color: #000; height: 800px;}
+.instagram {background-color: #000; height: auto;}
 
 /*Comentários*/
-.comentarios {height: 1000px;}
+.comentarios {height: auto;}
 
 /*Social*/
-.social {height: 120px;}
+.social {height: auto; border-top: 1px solid #E3E3E3;}
+.social h3 {color: #D0021B; position: relative; top: -10px;}
+.icon {padding: 0 5px;}
 
 /*Rodapé*/
-.footer {height: 80px;}
+.footer {height: auto; background-color: #000;}
+
 
 /*==========  Mobile First Method  ==========*/
 
@@ -102,6 +117,8 @@ p {font-size: 20px;}
 .brasao {margin-top: 30px;}
 .banner {height: 600px;}
 .banner-txt {text-align: left; margin-top: 0;}
+
+.superficie-img {padding-top: 0px;}
 
 
 }
