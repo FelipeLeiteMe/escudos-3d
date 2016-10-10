@@ -11,6 +11,9 @@ span {font-weight: 700;}
 a {color: #000;}
 a.focus, a:focus, a:hover {text-decoration: none; color: #000;}
 
+::selection {background: #D0021B; /* WebKit/Blink Browsers */}
+::-moz-selection {background: #D0021B; /* Gecko Browsers */}
+
 .margin0 {margin: 0 0 0 0;}
 .margin-top10 {margin-top: 10px;}
 .margin-top20 {margin-top: 20px;}
