@@ -60,7 +60,6 @@ a.focus, a:focus, a:hover {text-decoration: none; color: #000;}
 /*background-attachment: fixed;*/
 
 .header-txt {font-size: 16px;}
-
 .brasao {margin-top: 30px; margin-bottom: 10px;}
 
 /*banner*/
@@ -104,8 +103,6 @@ a.focus, a:focus, a:hover {text-decoration: none; color: #000;}
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
-
-
 }
 
 /* Small Devices, Tablets */
@@ -116,11 +113,9 @@ p {font-size: 20px;}
 
 .rwd-break { display: block;}
 .margin-top35-sm {margin-top: 35px;}
-
 .brasao {margin-top: 30px;}
 .banner {height: 600px;}
 .banner-txt {text-align: left; margin-top: 0;}
-
 .superficie-img {padding-top: 0px;}
 
 
@@ -130,11 +125,9 @@ p {font-size: 20px;}
 @media only screen and (min-width : 992px) {
 
 .header-txt {font-size: 18px;}
-
 .brasao {margin-top: 30px;}
 .banner {height: 650px;}
 .banner-txt {margin-top: 40px;}
-
 .btn-vermelho {padding: 10px 85px;}
 .btn-preto {padding: 10px 85px;}
 
