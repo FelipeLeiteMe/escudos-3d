@@ -1,0 +1,240 @@
+/*==========  Geral  ==========*/
+
+body {font-family: 'Source Sans Pro', sans-serif; font-weight: 300;}
+p {font-size: 18px;}
+h1 {font-size: 32px; margin-bottom: 10px; margin-top: 0px;}
+h2 {font-size: 64px; font-weight: 700; margin-top: -5px; margin-bottom: 0px;}
+h3 {font-size: 20px;}
+h4 {font-size: 30px;}
+small {font-size: 16px;}
+span {font-weight: 700;}
+p {margin: 0;}
+a {color: #000;}
+a.focus, a:focus, a:hover {text-decoration: none; color: #343434;}
+
+::selection {background: #fff; /* WebKit/Blink Browsers */}
+::-moz-selection {background: #fff; /* Gecko Browsers */}
+
+.margin0 {margin: 0 0 0 0;}
+.margin-top10 {margin-top: 10px;}
+.margin-top20 {margin-top: 20px;}
+.margin-top30 {margin-top: 30px;}
+.margin-top40 {margin-top: 40px;}
+.margin-top50 {margin-top: 50px;}
+.margin-top60 {margin-top: 60px;}
+.margin-top80 {margin-top: 80px;}
+
+.margin-bottom10 {margin-bottom: 10px;}
+.margin-bottom20 {margin-bottom: 20px;}
+.margin-bottom25 {margin-bottom: 25px;}
+.margin-bottom40 {margin-bottom: 40px;}
+.margin-bottom60 {margin-bottom: 60px;}
+.margin-bottom80 {margin-bottom: 80px;}
+
+.padding20 {padding: 20px 0;}
+.padding-left20 {padding-left: 10px;}
+
+.font-size24 {font-size: 24px;}
+.font-size26 {font-size: 26px;}
+
+.rwd-break { display: none;}
+
+.branco {color: #fff;}
+.vermelho {color: #D0021B;}
+.verde {color: #17633a;}
+.dourado {color: #BCA651;}
+.preto {color: #000;}
+.amarelo {color: #FECC02;}
+
+.verde a.focus, a:focus, a:hover {color: #104729;}
+
+.bg-c-vermelho {background-color: #D0021B;}
+.bg-c-preto {background-color: #000;}
+.bg-c-dourado {background-color: #BCA651;}
+.bg-c-verde {background-color: #17633a;}
+.bg-c-vermelho-f {background-color: #A01215;}
+.bg-c-branco {background-color: #fff;}
+.bg-c-amarelo {background-color: #FECC02;}
+
+.btn-vermelho {background-color: #D0021B; color: #fff; font-size: 30px; font-weight: 700; border-radius: 10px;}
+.btn-vermelho {padding: 15px 50px; margin-bottom: 20px;}
+.btn-vermelho.focus, .btn-vermelho:focus, .btn-vermelho:hover {background-color: #A10014; color: #fff;}
+
+.btn-amarelo {background-color: #FECC02; color: #000; font-size: 30px; font-weight: 700; border-radius: 10px;}
+.btn-amarelo {padding: 15px 50px; margin-bottom: 20px;}
+.btn-amarelo.focus, .btn-amarelo:focus, .btn-amarelo:hover {background-color: #D4AA00; color: #000;}
+
+.btn-preto-v {background-color: #000; color: #fff; font-size: 30px; font-weight: 700; border-radius: 10px;}
+.btn-preto-v {padding: 15px 50px; margin-bottom: 20px;}
+.btn-preto-v.focus, .btn-preto-v:focus, .btn-preto-v:hover {background-color: #343434; color: #fff;}
+
+.btn-vermelho-modal {background-color: #D0021B; color: #fff; font-size: 24px; font-weight: 700; border-radius: 10px;}
+.btn-vermelho-modal {padding: 15px 23px; margin-bottom: 20px;}
+.btn-vermelho-modal.focus, .btn-vermelho-modal:focus, .btn-vermelho-modal:hover {background-color: #A10014; color: #fff;}
+
+.btn-preto-modal {background-color: #000; color: #fff; font-size: 24px; font-weight: 700; border-radius: 10px;}
+.btn-preto-modal {padding: 15px 23px; margin-bottom: 20px;}
+.btn-preto-modal.focus, .btn-preto-modal:focus, .btn-preto-modal:hover {background-color: #343434; color: #fff;}
+
+.btn-dourado {background-color: #BCA651; color: #fff; font-size: 30px; font-weight: 700; border-radius: 10px;}
+.btn-dourado {padding: 15px 50px; margin-bottom: 20px;}
+.btn-dourado.focus, .btn-dourado:focus, .btn-dourado:hover {background-color: #A8923E; color: #fff;}
+
+.btn-dourado-modal {background-color: #BCA651; color: #fff; font-size: 24px; font-weight: 700; border-radius: 10px;}
+.btn-dourado-modal {padding: 15px 23px; margin-bottom: 20px;}
+.btn-dourado-modal.focus, .btn-dourado-modal:focus, .btn-dourado-modal:hover {background-color: #A8923E; color: #fff;}
+
+.btn-preto {background-color: #fff; color: #000; font-size: 30px; font-weight: 700; border-radius: 10px; border-style: solid; border-width: 1px; border-color: #000;}
+.btn-preto {padding: 15px 60px; margin-bottom: 20px;}
+.btn-preto.focus, .btn-preto:focus, .btn-preto:hover {background-color: #343434; color: #fff;}
+
+.btn-vermelho-v {background-color: #fff; color: #D0021B; font-size: 30px; font-weight: 700; border-radius: 10px; border-style: solid; border-width: 1px; border-color: #D0021B;}
+.btn-vermelho-v {padding: 15px 60px; margin-bottom: 20px;}
+.btn-vermelho-v.focus, .btn-vermelho-v:focus, .btn-vermelho-v:hover {background-color: #D0021B; color: #fff;}
+
+.btn-verde {background-color: #fff; color: #17633a; font-size: 30px; font-weight: 700; border-radius: 10px; border-style: solid; border-width: 1px; border-color: #17633a;}
+.btn-verde {padding: 15px 60px; margin-bottom: 20px;}
+.btn-verde.focus, .btn-verde:focus, .btn-verde:hover {background-color: #104729; color: #fff;}
+
+.btn.focus, .btn:focus, .btn:hover {color: #fff; text-decoration: none;}
+
+.panel-default>.panel-heading {background-color: #fff; border-top-left-radius: 0px; border-top-right-radius: 0px;}
+.panel-group .panel {border-radius: 0px; border: 0px solid transparent; }
+.panel-body {font-size: 18px; font-weight: 400; line-height: 34px; padding: 15px 25px;}
+
+.border-preto {border-left: 10px solid #000; border-color: #000 !important;}
+.border-verde {border-left: 10px solid #17633a; border-color: #17633a !important;}
+.border-vermelho {border-left: 10px solid #D0021B; border-color: #D0021B !important;}
+
+.modal-fechar {position: relative; top: -400px; right: 18px;}
+.modal-content {border-radius: 0px; -webkit-box-shadow: none; box-shadow: none;}
+.modal-body {height: 450px; padding: 0;}
+.margin-row {margin-right: 0px; margin-left: 0px;}
+.form-control {height: 65px; border-radius: 10px; margin-bottom: 20px; font-size: 20px; text-align: center; border: 0px solid #fff;}
+.titulo-modal {font-size: 42px;}
+.paragrafo-modal {font-size: 16px; margin-bottom: 40px;}
+.txt-modal {margin-top: 30px; font-size: 24px; margin-bottom: 0px;}
+
+.modal-backdrop {background-color: #fff;}
+.modal-backdrop.in { filter: alpha(opacity=90); opacity: .9;}
+
+
+/*==========  Site  ==========*/
+
+/*Layout*/
+.img-bg {background-image: url(../img/desktop.png); background-position: center top; width: 1920px; height: 5561px; opacity: 0.2; position: absolute;}
+.header {height: 90px;}
+.header p {padding-top: 10px;}
+
+/*background-attachment: fixed;*/
+
+.header-txt {font-size: 16px;}
+.brasao {margin-top: 30px; margin-bottom: 10px;}
+
+/*banner*/
+.banner {background-position: center top; background-size: cover; height: auto;}
+.banner-preto {background-image: url(../img/banner/corinthians-img-bg.png); background-color: #000; }
+.banner-verde {background-image: url(../img/banner/palmeiras-img-bg.png); background-color: #17633a; }
+.banner-vermelho {background-image: url(../img/banner/sao-paulo-img-bg.png); background-color: #5f0004; }
+
+
+/*Qualidade*/
+.qualidade {height: auto;}
+
+/*Superfície*/
+.superficie {height: auto;}
+
+
+.superficie-img {padding-top: 30px;}
+
+/*Segurança*/
+.seguranca {height: auto;}
+
+/*Dúvidas*/
+.duvidas {height: auto;}
+
+/*Instagram*/
+.instagram {height: auto;}
+
+/*Comentários*/
+.comentarios {height: auto;}
+
+/*Social*/
+.social {height: auto; border-top: 1px solid #E3E3E3;}
+.social h3 {color: #D0021B; position: relative; top: -10px;}
+.icon {padding: 0 5px;}
+
+/*Rodapé*/
+.footer {height: auto;}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+  .modal-dialog {width: 300px;margin: 30px auto;}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+  .modal-dialog {width: 480px;margin: 30px auto;}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  p {font-size: 20px;}
+  .rwd-break { display: block;}
+  .margin-top35-sm {margin-top: 35px;}
+  .brasao {margin-top: 30px;}
+  .banner {height: 600px;}
+  .banner-txt {text-align: left; margin-top: 0;}
+  .superficie-img {padding-top: 0px;}
+  .btn-vermelho-modal {padding: 16px 75px;}
+  .btn-dourado-modal {padding: 16px 75px;}
+  .btn-preto-modal {padding: 16px 75px;}
+  .modal-fechar {position: relative; top: 15px; right: 20px;}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+  h1 {font-size: 42px;}
+  .header-txt {font-size: 18px;}
+  .brasao {margin-top: 30px;}
+  .brasao-santos {margin-top: 90px;}
+  .brasao-palmeiras {margin-top: 70px;}
+  .brasao-saopaulo {margin-top: 50px;}
+  .banner {height: 650px;}
+  .banner-txt {margin-top: 40px;}
+  .btn-vermelho {padding: 10px 85px;}
+  .btn-amarelo {padding: 10px 85px;}
+  .btn-vermelho-modal {padding: 16px 93px;}
+  .btn-dourado-modal {padding: 16px 93px;}
+  .btn-preto-modal {padding: 16px 93px;}
+  .btn-dourado {padding: 10px 85px;}
+  .btn-preto {padding: 10px 85px;}
+  .btn-preto-v {padding: 10px 85px;}
+  .btn-vermelho-v {padding: 10px 85px;}
+  .btn-verde {padding: 10px 85px;}
+  .modal-dialog {width: 920px;margin: 30px auto;}
+  .form-control {height: 65px;}
+  .padding-left20-md {padding-left: 20px;}
+  .titulo-modal {font-size: 40px;}
+  .txt-modal {margin-top: 55px;}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+  .banner {height: 700px;}
+  .banner-txt {margin-top: 70px;}
+
+
+}
